@@ -41,3 +41,7 @@ xcuserdata/
 Podfile.lock
 Pods/
 *.xcworkspace
+
+# Project
+
+Foodify/Resources/Localizable/Localizable.swift
