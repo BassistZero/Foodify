@@ -7,20 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A4D1672A03C0EC00E356A1 /* FoodifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A4D1662A03C0EC00E356A1 /* FoodifyApp.swift */; };
+		02A4D16E2A03C0ED00E356A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A4D16D2A03C0ED00E356A1 /* Preview Assets.xcassets */; };
+		02DFFE1C2A051FA80022C172 /* RecipesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE1B2A051FA80022C172 /* RecipesListView.swift */; };
 		02DFFE352A052D080022C172 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE342A052D080022C172 /* Recipe.swift */; };
 		02DFFE372A052D1D0022C172 /* RecipesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE362A052D1D0022C172 /* RecipesData.swift */; };
+		02DFFE3A2A052E9B0022C172 /* RecipeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE392A052E9B0022C172 /* RecipeRow.swift */; };
 		02DFFE3C2A052FD80022C172 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE3B2A052FD80022C172 /* RecipeDetail.swift */; };
 		02F256912A09192F00643BB0 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F256902A09192F00643BB0 /* Photos.xcassets */; };
+		02F256992A09449B00643BB0 /* RecipesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F256982A09449B00643BB0 /* RecipesListViewModel.swift */; };
 		02F2569F2A0ABAF400643BB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02F256A12A0ABAF400643BB0 /* Localizable.strings */; };
 		02F256A42A0ABDF200643BB0 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F256A32A0ABDF200643BB0 /* Localizable.swift */; };
 		1C4998A33F86F636B72230FD /* Pods_Foodify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46029555DA722DD7A3AD2F6D /* Pods_Foodify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A4D1632A03C0EC00E356A1 /* Foodify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A4D1662A03C0EC00E356A1 /* FoodifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodifyApp.swift; sourceTree = "<group>"; };
+		02A4D16D2A03C0ED00E356A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02DFFE1B2A051FA80022C172 /* RecipesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListView.swift; sourceTree = "<group>"; };
 		02DFFE342A052D080022C172 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		02DFFE362A052D1D0022C172 /* RecipesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesData.swift; sourceTree = "<group>"; };
+		02DFFE392A052E9B0022C172 /* RecipeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRow.swift; sourceTree = "<group>"; };
 		02DFFE3B2A052FD80022C172 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
 		02F256902A09192F00643BB0 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
+		02F256982A09449B00643BB0 /* RecipesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesListViewModel.swift; sourceTree = "<group>"; };
 		02F256A02A0ABAF400643BB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02F256A22A0ABAF800643BB0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02F256A32A0ABDF200643BB0 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
@@ -54,17 +65,37 @@
 		02A4D1652A03C0EC00E356A1 /* Foodify */ = {
 			isa = PBXGroup;
 			children = (
+				02DFFE3F2A0536D60022C172 /* Application */,
 				02DFFE402A0536D90022C172 /* Views */,
 				02DFFE412A0536DC0022C172 /* Models */,
 				02DFFE422A0536EF0022C172 /* Resources */,
+				02A4D16C2A03C0ED00E356A1 /* Preview Content */,
 			);
 			path = Foodify;
+			sourceTree = "<group>";
+		};
+		02A4D16C2A03C0ED00E356A1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02A4D16D2A03C0ED00E356A1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02DFFE3F2A0536D60022C172 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				02A4D1662A03C0EC00E356A1 /* FoodifyApp.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 		02DFFE402A0536D90022C172 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				02F256972A09449100643BB0 /* RecipesListView */,
 				02DFFE3B2A052FD80022C172 /* RecipeDetail.swift */,
+				02DFFE392A052E9B0022C172 /* RecipeRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +116,15 @@
 				02F256902A09192F00643BB0 /* Photos.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		02F256972A09449100643BB0 /* RecipesListView */ = {
+			isa = PBXGroup;
+			children = (
+				02DFFE1B2A051FA80022C172 /* RecipesListView.swift */,
+				02F256982A09449B00643BB0 /* RecipesListViewModel.swift */,
+			);
+			path = RecipesListView;
 			sourceTree = "<group>";
 		};
 		02F2569C2A0950B300643BB0 /* Localizable */ = {
@@ -181,6 +221,7 @@
 			files = (
 				02F256912A09192F00643BB0 /* Photos.xcassets in Resources */,
 				02F2569F2A0ABAF400643BB0 /* Localizable.strings in Resources */,
+				02A4D16E2A03C0ED00E356A1 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +297,11 @@
 			files = (
 				02F256A42A0ABDF200643BB0 /* Localizable.swift in Sources */,
 				02DFFE3C2A052FD80022C172 /* RecipeDetail.swift in Sources */,
+				02A4D1672A03C0EC00E356A1 /* FoodifyApp.swift in Sources */,
+				02DFFE3A2A052E9B0022C172 /* RecipeRow.swift in Sources */,
+				02F256992A09449B00643BB0 /* RecipesListViewModel.swift in Sources */,
 				02DFFE372A052D1D0022C172 /* RecipesData.swift in Sources */,
+				02DFFE1C2A051FA80022C172 /* RecipesListView.swift in Sources */,
 				02DFFE352A052D080022C172 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
