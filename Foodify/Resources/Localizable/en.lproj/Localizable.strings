@@ -1,0 +1,27 @@
+// MARK: - Mock
+
+Mock.Authorization.name = "Authorize Me!";
+Mock.Borsch.name = "Borsch";
+Mock.Greek.name = "Greek";
+Mock.RecipeDetail.description = "That's a really delicious meal. Better to cook then not";
+Mock.RecipeDetail.recipe = "1. Just do it";
+
+// MARK: - Recipe
+
+Recipe.RecipeType.soup = "Soup";
+Recipe.RecipeType.salad = "Salad";
+
+Recipe.creationDateName = "Created at";
+
+// MARK: - RecipesList
+
+RecipesList.title = "Recipes";
+
+RecipesList.Filter.name = "Name";
+RecipesList.Filter.type = "Type";
+RecipesList.Filter.date = "Date";
+
+// MARK: - RecipeDetail
+
+RecipeDetail.typeName = "Type";
+RecipeDetail.recipeName = "Recipe";

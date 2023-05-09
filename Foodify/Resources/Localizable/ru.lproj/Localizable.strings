@@ -1,0 +1,27 @@
+// MARK: - Mock
+
+Mock.Authorization.name = "Авторизируй Меня!";
+Mock.Borsch.name = "Борщ";
+Mock.Greek.name = "Греческий";
+Mock.RecipeDetail.description = "Это очень вкусное блюдо. Лучше сделать, чем не сделать";
+Mock.RecipeDetail.recipe = "1. Просто сделать";
+
+// MARK: - Recipe
+
+Recipe.RecipeType.soup = "Суп";
+Recipe.RecipeType.salad = "Салат";
+
+Recipe.creationDateName = "Создан";
+
+// MARK: - RecipesList
+
+RecipesList.title = "Рецепты";
+
+RecipesList.Filter.name = "Имя";
+RecipesList.Filter.type = "Тип";
+RecipesList.Filter.date = "Дата";
+
+// MARK: - RecipeDetail
+
+RecipeDetail.typeName = "Тип";
+RecipeDetail.recipeName = "Рецепт";

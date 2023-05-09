@@ -1,0 +1,10 @@
+input_dir: Foodify/Resources
+output_dir: Foodify/Resources
+
+# Localization
+strings:
+    inputs: Localizable/en.lproj/Localizable.strings
+    filter: .+\.strings$
+    outputs:
+        templateName: structured-swift5
+        output: Localizable/Localizable.swift
