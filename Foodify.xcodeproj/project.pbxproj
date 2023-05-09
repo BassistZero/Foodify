@@ -10,6 +10,7 @@
 		02DFFE352A052D080022C172 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE342A052D080022C172 /* Recipe.swift */; };
 		02DFFE372A052D1D0022C172 /* RecipesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE362A052D1D0022C172 /* RecipesData.swift */; };
 		02DFFE3C2A052FD80022C172 /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFFE3B2A052FD80022C172 /* RecipeDetail.swift */; };
+		02F256912A09192F00643BB0 /* Photos.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F256902A09192F00643BB0 /* Photos.xcassets */; };
 		02F2569F2A0ABAF400643BB0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02F256A12A0ABAF400643BB0 /* Localizable.strings */; };
 		02F256A42A0ABDF200643BB0 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F256A32A0ABDF200643BB0 /* Localizable.swift */; };
 		1C4998A33F86F636B72230FD /* Pods_Foodify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46029555DA722DD7A3AD2F6D /* Pods_Foodify.framework */; };
@@ -19,6 +20,7 @@
 		02DFFE342A052D080022C172 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		02DFFE362A052D1D0022C172 /* RecipesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesData.swift; sourceTree = "<group>"; };
 		02DFFE3B2A052FD80022C172 /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		02F256902A09192F00643BB0 /* Photos.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Photos.xcassets; sourceTree = "<group>"; };
 		02F256A02A0ABAF400643BB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02F256A22A0ABAF800643BB0 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02F256A32A0ABDF200643BB0 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				02F2569C2A0950B300643BB0 /* Localizable */,
+				02F256902A09192F00643BB0 /* Photos.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02F256912A09192F00643BB0 /* Photos.xcassets in Resources */,
 				02F2569F2A0ABAF400643BB0 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
